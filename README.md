@@ -4,6 +4,7 @@ learn how to use our API
 
 * [DB Configuration](#Database-configuration)
 * [Limitation of our database](#Limitation-of-our-database)
+* [Execution requirement](#Execution-requirement)
 
 
 
@@ -13,6 +14,10 @@ learn how to use our API
 Please open the mydb.py and modify the `mem_size` and `lv0_size`.
 I use the toy database to help me debug, so the default setting of mem_size and lv0_size is small
 
-## DB Configuration
+## Limitation of our database
 Please remember our column-oriented database is composed of string as a key and dictionary as value.
 Do not use other type to test our db, it can't work
+
+## Execution requirement
+Our database only can run at Python3(I use python3.4)
+
